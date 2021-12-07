@@ -25,7 +25,7 @@ export default function Register(){
         if (data.data.token) {
             alert("usuario creado exitosamente")
             //authHelper.setToken(data.data.token)
-            navigate('/')
+            navigate('/login')
         }
         else {
             alert("falló")
