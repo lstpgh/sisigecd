@@ -10,7 +10,6 @@ export default function Register(){
     let navigate = useNavigate()
 
     const names = useRef()
-    const lastnames = useRef()
     const email = useRef();
     const pass = useRef();
 
@@ -23,12 +22,15 @@ export default function Register(){
         const data = await axios.post(process.env.REACT_APP_API_URL + 'auth/register',form,{
             header:{'Accept': 'application/json'}
         } )
-
-        alert("usuario creado exitosamente")
-        //authHelper.setToken(data.data.token)
-        navigate('/')
-
+        if (data.data.token) {
+            alert("usuario creado exitosamente")
+            //authHelper.setToken(data.data.token)
+            navigate('/')
         }
+        else {
+            alert("falló")
+        }
+    }
     
 
     return (

@@ -27,7 +27,7 @@ export default function Login(){
             console.log(user)
             navigate('/entrenador')
         } else {
-            console.log("nou")
+            alert("datos incorrectos")
         }
     }
 
