@@ -1,0 +1,81 @@
+
+#header{
+    background: rgb(121, 152, 182);
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem 0;
+    opacity: 1;
+    border-top: 5px solid #122350;
+    box-shadow: 3px 3px rgba(156, 155, 224, 0.384), -1em 0 0.4em olive;
+    position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+    z-index: 5 ;
+}
+
+.logo-menu-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 130px;
+    width: 85%;
+    max-width: 1050px;
+    margin: 0px auto
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+#logo img{
+    height:  130px;
+    display: block;
+    animation: crecer 3s linear;
+}
+@keyframes crecer{
+    from{
+        -webkit-transform:scale(0.25);transform:scale(0.25);
+    }
+   
+}
+#menu{
+    font-weight: 600;
+    
+}
+#menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}    
+#menu ul li{
+    display: inline-block;
+}
+#menu ul li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    display: block;
+    padding: 0.5rem 0.5rem;
+    color: #444;
+    transition: 300ms all;
+    border-radius: 8px;
+    
+}
+#menu a:hover{
+    color: #f0a039;
+    background: #f5f7ad;
+}
+
+#registro{
+	color: #444;
+    display: block;  
+    font-size: 1.3rem; 
+    padding: 0.5rem 0.5rem;
+    border-radius: 8px;
+    transition: 300ms all;
+    cursor: pointer;
+}
+#registro:hover{
+    color: #f0a039;
+    background: #f5f7ad;
+}

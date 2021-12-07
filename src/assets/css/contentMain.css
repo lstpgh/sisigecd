@@ -1,0 +1,36 @@
+#contentMain{
+    height: 500px;
+    width: 100%;
+    padding-top: 1.5rem;
+    background: #f4fa9d;
+             
+  }      
+  #containerMain {
+    height: auto;
+    width: 100%;
+    background: #f4fa9d;
+            
+  }
+
+  .linkContentMain{
+    padding-top: 0.6rem;
+  }
+  #g-2{
+    width: 100%;
+    margin-top: 1rem; 
+    
+  }
+  #content-img{
+    width: 100%;
+    margin-top: 0.5rem; 
+    
+  }
+  #img-main{
+    max-width: 100%;
+    border-radius: 8px; 
+  }
+  .clearfix{
+    clear: both;
+    float: none;
+}
+  

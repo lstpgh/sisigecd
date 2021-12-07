@@ -1,0 +1,22 @@
+.error-page{
+    background:#f2d66a;
+    width: 100%;
+    height: 750px;
+    margin: 0px auto; 
+    padding-top: 370px;
+    position: relative;
+    line-height: 35px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+  }
+
+.error-page h1 {
+    font-size: 2.5rem;
+}
+  
+.error-page  p {
+    margin-top: 2rem;
+    font-size: 1.8rem;
+}

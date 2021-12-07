@@ -1,0 +1,12 @@
+.mb-2{
+    position: relative;
+    background:#f5d654;
+    width: 85%;
+    display: inline-block;   
+    margin:0.5%;
+    box-sizing: border-box;
+    
+    }
+    #img-card{
+      width:100%
+    }    

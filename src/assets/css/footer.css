@@ -1,0 +1,21 @@
+#footer {
+    background-color: #747473;
+    color: white;
+    box-shadow: 3px 3px rgba(156, 155, 224, 0.384), -1em 0 0.4em olive;
+    font-weight: 600;
+  }
+  .containerFoo{
+    width: 85%;
+    max-width: 850px;
+    margin: 0px auto;   
+  }
+  .contentFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  #logoFooter{
+    height: 120px;
+    padding: 1rem;
+  }

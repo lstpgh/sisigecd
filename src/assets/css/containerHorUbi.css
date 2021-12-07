@@ -1,0 +1,39 @@
+#titlecontInfoUbi{
+  padding-top: 5rem;
+  background: #f4fa9d;
+}
+#linkcontInfoUbicacion{
+  padding-top: 5rem;
+  background: #f4fa9d;
+}
+
+#titlecontInfoUbi h1 {
+  font-size: 2.5rem;
+  line-height: 1.3em;
+}
+
+#titlecontInfoUbi h3 {
+  font-size: 1.5rem;
+  line-height: 1em;
+}
+#titlecontInfoUbi  p {
+  margin-bottom: 1.6em;
+  font-size: 1.8rem;
+  line-height: 1em;
+}
+ 
+  #containerUbicacion {
+    display: inline-flex;
+    margin-top: 1rem;
+    background: #f4fa9d;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding: 1rem;
+  }
+
+  .clearfix{
+    clear: both;
+    float: none;
+}
+
+ 

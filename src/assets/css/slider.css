@@ -1,0 +1,57 @@
+.slider{
+    width: 100%;
+    height: auto;
+    line-height: 25px;
+    color:rgb(53, 51, 51);
+    border-radius: 8px;
+    box-sizing: border-box;
+    text-align: center;
+    
+    
+    background: rgba(241,231,103,1);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(241,231,103,1)), color-stop(100%, rgba(254,182,69,1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+    background: radial-gradient(ellipse at center, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645', GradientType=1 );
+    
+  
+  }
+  .slider h1{
+    width: 85%;
+    margin:auto;
+    margin-top:0.5rem;
+    padding: 2rem;
+    line-height: 52px;
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .slider h3{
+    margin:auto;
+    padding: 0px;
+    width: 85%;
+    line-height: 26px;
+    font-size: large;
+  }
+  .slider h5{
+    margin:auto;
+    margin-top: 20px;
+    padding: 0px;
+    width: 85%;
+    line-height: 36px;
+    font-size: x-large;
+  }
+  #btnInfo{
+    
+    padding: 10px;
+    margin:33px auto;
+    width: 240px;
+    height: 50px;
+    text-align: center;
+    
+    font-size: large;
+    font-weight: 600;
+   
+  }
