@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 require('dotenv').config()
+
 ReactDOM.render(
   <React.StrictMode>
     <App />

@@ -4,7 +4,7 @@ import Header from './components/Header';
 import Home from './components/Home';
 import Login from './components/auth/login/Login';
 import ErrorPage from './components/ErrorPage';
-import Register from "./components/Register";
+import Register from "./components/auth/register/Register";
 import Footer from './components/Footer';
 import VistaEntrenador from "./components/VistaEntrenador";
 
